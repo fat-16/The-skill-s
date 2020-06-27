@@ -1,0 +1,92 @@
+*{
+	margin:0;
+	padding:0;
+	list-style:none;
+}
+body{
+	text-transform:uppercase;
+	background:#333;
+}
+h1{
+	text-align:center;
+}
+h4{text-align:left;
+   margin:5px;
+   font-size:24px;
+}
+.skill{width:500px;
+margin:60px auto;
+padding: 20px;
+color:#fff;
+box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+}
+.skill li{
+	margin: 20px 0;
+	padding:20px;
+}
+.bar{
+	background:#133748;
+	display:block;
+	height:20px;
+	overflow:hidden;
+	border:1px solid #03e9f4;
+	border-radius:10px;
+	box-shadow: 0 1px 3px rgba(0, 0, 0, 0.14), 0 1px 2px rgba(0, 0, 0, 0.12);
+	transition: all 0.3s cubic-bezier(.25, .8, .25, 1);
+}
+.bar:hover{
+	box-shadow:0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+}
+.bar span{
+	float:left;
+	height:20px;
+	background:linear-gradient(135deg, rgba(178,34,34)0%, rgba(220,20,60)50%, rgba(255,99,71)100%);
+}
+.html{
+	width:85%;
+	animation:html 0.3s;
+}
+@keyframes html{
+	0%{
+		width:0%;
+	}
+	100%{
+		width:85%;
+	}
+}
+.css{
+	width:80%;
+	animation:css 0.3s;
+}
+@keyframes css{
+	0%{
+		width:0%;
+	}
+	100%{
+		width:80%;
+	}
+}
+.python{
+	width:30%;
+	animation:python 0.3s;
+}
+@keyframes python{
+	0%{
+		width:0;
+	}
+	100%{
+		width:30%
+	}
+}
+.javascript{
+	width:0;
+	animation: js 0.3s;
+}
+@keyframes js{
+	0%{
+		width:0;
+	}
+	100%{
+		width:1%;
+	}
+}
